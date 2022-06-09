@@ -9,3 +9,9 @@ It uses `Poetry` as build tool, and set my usual dev dependencies :
 - flake8
 - black
 - mypy
+
+## Usage
+
+```bash
+cookiecutter https://github.com/polluxtroy3758/cookiecutter-python
+```

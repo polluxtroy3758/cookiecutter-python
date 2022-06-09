@@ -4,6 +4,4 @@ from importlib import metadata
 import importlib_metadata as metadata
 {%- endif %}
 
-__version__ = metadata.version(
-    "{{ cookiecutter.package_slug }}"
-)
+__version__ = metadata.version("{{ cookiecutter.package_slug }}")
