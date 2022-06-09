@@ -1,0 +1,9 @@
+{
+  "author_name": "Your Name",
+  "package_name": "My Package",
+  "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "package_short_description": "A sample package",
+  "package_version": "0.1.0",
+  "python_version": "3.8",
+  "python_short_version": "{{ ''.join(cookiecutter.python_version.split('.')[:2]) }}"
+}
