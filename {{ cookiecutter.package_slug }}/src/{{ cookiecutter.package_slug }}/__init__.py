@@ -1,4 +1,4 @@
-{%- if cookiecutter.python_version >= "3.8" %}
+{%- if cookiecutter.python_version.split('.')[1]|int >= 8 %}
 from importlib import metadata
 {%- else %}
 import importlib_metadata as metadata
